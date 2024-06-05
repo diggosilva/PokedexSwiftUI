@@ -12,6 +12,10 @@ class PokemonViewModel: ObservableObject {
     
     let baseUrl = "https://pokedex-bb36f.firebaseio.com/pokemon.json"
     
+    init() {
+        fetchPokemon()
+    }
+    
     func fetchPokemon() {
         guard let url = URL(string: baseUrl) else { return }
         
