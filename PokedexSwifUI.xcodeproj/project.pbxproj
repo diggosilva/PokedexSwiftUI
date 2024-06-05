@@ -14,6 +14,7 @@
 		92EEC8AE2C10A40C007E092A /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEC8AD2C10A40C007E092A /* PokemonCell.swift */; };
 		92EEC8B02C10A814007E092A /* PokedexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEC8AF2C10A814007E092A /* PokedexView.swift */; };
 		92EEC8B22C10AB14007E092A /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEC8B12C10AB14007E092A /* Pokemon.swift */; };
+		92EEC8B42C10AF11007E092A /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EEC8B32C10AF11007E092A /* PokemonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		92EEC8AD2C10A40C007E092A /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
 		92EEC8AF2C10A814007E092A /* PokedexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexView.swift; sourceTree = "<group>"; };
 		92EEC8B12C10AB14007E092A /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		92EEC8B32C10AF11007E092A /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		92EB15892C10956C00CA17D6 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				92EEC8B32C10AF11007E092A /* PokemonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 			files = (
 				92EEC8B22C10AB14007E092A /* Pokemon.swift in Sources */,
 				92C01A6D2C0FC8D200FFA2B9 /* ContentView.swift in Sources */,
+				92EEC8B42C10AF11007E092A /* PokemonViewModel.swift in Sources */,
 				92C01A6B2C0FC8D200FFA2B9 /* PokedexSwifUIApp.swift in Sources */,
 				92EEC8AE2C10A40C007E092A /* PokemonCell.swift in Sources */,
 				92EEC8B02C10A814007E092A /* PokedexView.swift in Sources */,
